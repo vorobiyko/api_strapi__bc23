@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mm_vens",
+  "info": {
+    "singularName": "mm-ven",
+    "pluralName": "mm-vens",
+    "displayName": "MMVen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ItemCode": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "decimal"
+    },
+    "Approved": {
+      "type": "boolean"
+    },
+    "MenuItemEntryNo": {
+      "type": "string"
+    },
+    "OrderDate": {
+      "type": "date"
+    }
+  }
+}

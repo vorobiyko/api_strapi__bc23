@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ph_vens",
+  "info": {
+    "singularName": "ph-ven",
+    "pluralName": "ph-vens",
+    "displayName": "PHVen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ItemCode": {
+      "type": "string"
+    },
+    "MenuItemEntryNo": {
+      "type": "string"
+    },
+    "Approved": {
+      "type": "boolean"
+    },
+    "Quantity": {
+      "type": "decimal"
+    },
+    "OrderDate": {
+      "type": "date"
+    }
+  }
+}

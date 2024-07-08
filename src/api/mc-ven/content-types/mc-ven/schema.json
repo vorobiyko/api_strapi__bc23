@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mc_vens",
+  "info": {
+    "singularName": "mc-ven",
+    "pluralName": "mc-vens",
+    "displayName": "MCVen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "OrderDate": {
+      "type": "date"
+    },
+    "ItemCode": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "decimal"
+    },
+    "Approved": {
+      "type": "boolean"
+    },
+    "MenuItemEntryNo": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kfc_vens",
+  "info": {
+    "singularName": "kfc-ven",
+    "pluralName": "kfc-vens",
+    "displayName": "KFCVen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ItemCode": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "decimal"
+    },
+    "Approved": {
+      "type": "boolean"
+    },
+    "MenuItemEntryNo": {
+      "type": "string"
+    },
+    "OrderDate": {
+      "type": "date"
+    }
+  }
+}

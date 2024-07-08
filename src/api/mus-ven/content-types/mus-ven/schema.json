@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mus_vens",
+  "info": {
+    "singularName": "mus-ven",
+    "pluralName": "mus-vens",
+    "displayName": "MUSVen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ItemCode": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "decimal"
+    },
+    "Approved": {
+      "type": "boolean"
+    },
+    "MenuItemEntryNo": {
+      "type": "string"
+    },
+    "OrderDate": {
+      "type": "date"
+    }
+  }
+}
